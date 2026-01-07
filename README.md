@@ -2,7 +2,7 @@
 
 # **ICS: Gate‑Level Digital Logic & IC Simulation Suite**
 
-Gate‑level digital logic simulation suite featuring primitive Boolean gates, IC abstractions, a full IC7447 decoder model, TTL‑74xx devices, and interactive PyQt5, Matplotlib testbenches. Built for EE students and embedded‑systems developers exploring digital logic, IC routing, and simulation design. 
+Gate‑level digital logic simulation suite featuring primitive Boolean gates, Integrated Circuit abstractions, a full IC7447 decoder model, TTL‑74xx devices, and interactive PyQt5, Matplotlib testbenches. Built for EE students and embedded‑systems developers exploring digital logic, IC routing, and simulation design. 
 
 This project models:
 
