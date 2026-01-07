@@ -11,7 +11,7 @@ This project models:
 *   **Full gate‑level IC7447 decoder**
 *   **TTL 74xx families**
 *   **Interactive GUI testbenches** (PyQt5)
-*   **Graphical/non-GUI testbenches** (Matplotlib)
+*   **Graphical/ non-GUI testbenches** (Matplotlib)
 
 All simulations assume *ideal digital conditions* (Boolean‑only logic, no propagation delay, no debounce, no thermal effects).
 
