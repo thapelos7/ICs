@@ -183,21 +183,25 @@ pip install -e .
 
 ***
 
-## ▶️ **Run Testbenches**
+## ▶️ **Run Testbenches** 
+**_(`anaconda prompt terminal recommended`)_**
 
-### Gate-level simulator:
+### Gate-level simulator: 
+_(ran inside the gates folder)_
 
 ```bash
 run-gates-tb
 ```
 
 ### Seven‑segment IC7447 visualizer:
+_(ran inside the IC_7447 folder)_
 
 ```bash
 run-sev_seg-tb
 ```
 
 ### TTL 74xx single IC (at a time) testbench:
+_(ran inside the ttl_74xx_ics folder)_
 
 ```bash
 run-ttl_744x-tb
