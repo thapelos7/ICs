@@ -176,7 +176,7 @@ Consistent behavior across all GUIs.
 ***
 
 ## 🚀 **Installation**
-
+_(ran inside main repo)_
 ```bash
 pip install -e .
 ```
