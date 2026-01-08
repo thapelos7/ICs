@@ -54,24 +54,27 @@ from ttl_74xx_ics import (
 )
 
 # intatiation of a digital integrated circuit and displaying its pins and their states
+def runner():
+    digi_ic = IC_7400_QUAD_2_INPUT_NAND(True, False, 14)
+    print(digi_ic.process())
 
-digi_ic = IC_7400_QUAD_2_INPUT_NAND(True, False, 14)
-print(digi_ic.process())
+    # plotting the states with their pin numbers using matplotlib
 
-# plotting the states with their pin numbers using matplotlib
+    x = len(digi_ic.list_of_pins)
+    x_axis = range(1, x+1)
+    y_axis = list(digi_ic.list_of_pins.values())
 
-x = len(digi_ic.list_of_pins)
-x_axis = range(1, x+1)
-y_axis = list(digi_ic.list_of_pins.values())
+    plt.stem(x_axis, y_axis, basefmt=' ')
+    plt.grid(True)
 
-plt.stem(x_axis, y_axis, basefmt=' ')
-plt.grid(True)
+    plt.xlabel("Pin Numbers")
+    plt.ylabel("States (LOW=0, HIGH=1)")
 
-plt.xlabel("Pin Numbers")
-plt.ylabel("States (LOW=0, HIGH=1)")
+    # formating the dirac plots with comments of the relavent states
 
-# formating the dirac plots with comments of the relavent states
+    for i, j in zip(x_axis, y_axis):
+        plt.text(i - .45, j + .01, f'({i}, {"HIGH"if j else "LOW"})')
+    plt.show()
 
-for i, j in zip(x_axis, y_axis):
-    plt.text(i - .45, j + .01, f'({i}, {"HIGH"if j else "LOW"})')
-plt.show()
+if __name__ == "__main__":
+    runner()
