@@ -197,5 +197,11 @@ run-gates-tb
 run-sev_seg-tb
 ```
 
+### TTL 74xx single IC (at a time) testbench:
+
+```bash
+run-ttl_744x-tb
+```
+
 .
 ***
