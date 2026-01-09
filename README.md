@@ -207,6 +207,14 @@ _(ran inside the ttl_74xx_ics folder)_
 ```bash
 run-ttl_744x-tb
 ```
+***
 
-.
+## 👀 PROJECT OVERVIEW:
+
+
+
+https://github.com/user-attachments/assets/02fb8c7a-204b-47df-8ca4-c769b9605685
+
+
+
 ***
