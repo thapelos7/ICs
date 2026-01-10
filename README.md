@@ -205,7 +205,7 @@ run-sev_seg-tb
 _(ran inside the ttl_74xx_ics folder)_
 
 ```bash
-run-ttl_744x-tb
+run-ttl_74xx-tb
 ```
 ***
 
